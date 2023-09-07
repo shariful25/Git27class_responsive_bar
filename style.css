@@ -1,0 +1,170 @@
+/* /* Icon name: desktop, rocket, lightbulb, map-marker, envelope, phone  */
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+h1,h2,h3,h4,h5,a{
+    font-family: 'Sawarabi Mincho', serif;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header css */
+.headerarea{
+    background-color: #22C3A3;
+    
+}
+.header{
+   
+    padding: 15px 10px;
+   
+    
+}
+.headerlogo{
+    width: 30%;
+}
+.headerlogo{}
+.headerlogo a{
+    color: #fff;
+    text-decoration: none;
+}
+.headermenu{
+    width: 70%;
+}
+.headermenu ul{
+    list-style: none;
+    /* text-align: center; */
+}
+.headermenu ul li{
+    display: inline-block;
+}
+.headermenu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin: 10px 10px;
+    line-height: 20px;
+    transition: .4s;
+}
+.headermenu ul li a:hover{
+    color: #798180;
+}
+/* BANNER */
+.bannerarea{
+    background-image: url("https://i.ibb.co/C0P81Hw/header-bg01.jpg");
+    background-repeat: no-repeat;
+    background-position:bottom center;
+    background-size: cover;
+    padding: 190px;
+
+}
+.secheadertxt{
+    text-align: center;
+    color: #fff;
+    width: 420px;
+    margin: 0px auto;
+}
+.secheadertxt h1{
+    font-weight: 600;
+    font-size: 36px;
+}
+.secheadertxt p{}
+.secheadertxt a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 15px;
+    font-weight: 500;
+    transition: .4s;
+}
+.secheadertxt a:hover{
+    background-color: #fff;
+    color:  #22C3A3;
+    border: 1px solid  #22C3A3;
+    
+}
+/* service */
+
+.servicearea{
+    border-bottom:2px solid #22C3A3;
+}
+.sitem1 i{
+    color: #22C3A3;
+    transition: .4s;
+    font-size: 30px;
+}
+.sitem1 i:hover{
+    color: #09f0c2;
+    scale: 1.1;
+}
+.sitem1{
+    width: 24%;
+    margin: 20px 0px;
+}
+.sitem1 p{
+    
+}
+/* about */
+.aboutarea{}
+.about{}
+.stxt{}
+.abouttotal{}
+.aboutimg{
+    width: 50%;
+}
+.aboutimg img{}
+.abouttxt{
+    width: 48%;
+    color: #6b6868;
+}
+/* contact */
+.contactarea{
+    background-color: #F6F6F6;
+}
+.abouttotal{}
+.citem{
+    width: 33%;
+}
+/* footertop */
+.footertop{
+    background-color: #22C3A3;
+}
+.footertopMenu{
+    
+}
+.footertopMenu ul{
+    list-style: none;
+    text-align: center;
+}
+.footertopMenu ul li{
+    display: inline-block;
+}
+.footertopMenu ul li a{
+   
+    display: inline-block;
+    color: #fff;
+    transition: .7s;
+    margin: 0px 4px;
+    font-size: 25px;
+    /* padding: 5px 10px; */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+
+    
+    
+   
+}
+.footertopMenu ul li a:hover{
+    background-color: #bd248f;
+    color: #22C3A3;
+    cursor: pointer;
+    
+    translate: 0px -20px; 
+}
